@@ -87,7 +87,7 @@ body {
 }
 
 a {
-  color: hsl(var(--clr-primary-base));
+  color: hsl(var(--clr-black));
   text-decoration: none;
 }
 
@@ -239,6 +239,12 @@ html,
   margin: 0;
 }
 
+header {
+  background-color: hsl(284, 100%, 50%);
+  border: 1px solid hsl(var(--clr-black));
+
+}
+
 /* Menu */
 .menu-items,
 .menu-item {
@@ -271,7 +277,7 @@ html,
 
 .search-input {
   width: 100%;
-  background-color: transparent;
+  background-color: hsl(var(--clr-white));
   border: 2px solid hsl(var(--clr-gray-ltr));
   font-size: var(--fs-base);
   padding: var(--spacing-smlst);
