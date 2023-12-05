@@ -240,7 +240,7 @@ html,
 }
 
 header {
-  background-color: hsl(284, 100%, 50%);
+  background-color: hsl(0, 80%, 50%);
   border: 1px solid hsl(var(--clr-black));
 
 }
