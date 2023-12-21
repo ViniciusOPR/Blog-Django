@@ -11,7 +11,7 @@ from blog.models import Post, Page
 
 # Create your views here.
 
-PER_PAGE = 9
+PER_PAGE = 6
 
 class PostListView(ListView):
     model = Post
